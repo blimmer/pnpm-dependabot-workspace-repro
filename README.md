@@ -1,7 +1,8 @@
 # pnpm-dependabot-workspace-repro
 
-Minimal-as-possible reproduction of a Dependabot timeout on a large pnpm
-workspace. Filed upstream at: _TODO: link to dependabot/dependabot-core issue_.
+Reproduction for [dependabot/dependabot-core#15959](https://github.com/dependabot/dependabot-core/issues/15959):
+repeated root-level `VersionResolver` pnpm checks exhaust the 55-minute
+Dependabot job limit on a large pnpm workspace.
 
 ## What this repo is
 
@@ -39,11 +40,23 @@ one, so Dependabot has work to do.
 
 ## Observed behaviour
 
-The Dependabot job times out before producing any pull requests.
+The Dependabot job is cancelled at the fixed 55-minute limit before version
+discovery finishes. In the
+[reference run](https://github.com/blimmer/pnpm-dependabot-workspace-repro/actions/runs/32261586214/job/96095884095)
+(55.5 minutes), only 32 of the 130 unique external direct dependencies had been
+checked. Almost all of the time went to exact-version pnpm checks issued by
+`VersionResolver` from the workspace root:
 
-_TODO: paste the relevant tail of the Dependabot job log (Insights → Dependency
-graph → Dependabot → "Last checked" → View logs), including the final timeout
-line and elapsed time._
+| Activity | Completed | Median | Total |
+|---|---:|---:|---:|
+| Exact-version pnpm checks (`VersionResolver`) | 19 | 158.5s | 47.9m |
+| Registry version checks | 32 | 0.3s | — |
+| `pnpm --filter . peers check` | 19 | 0.7s | 14.1s |
+| `pnpm install --lockfile-only` | 7 | 6.7s | 46.7s |
+
+Extrapolating the observed throughput, a full pass over all 130 dependencies
+would take roughly 3h45m. Later runs can be found under
+[Actions → Dependabot Updates](https://github.com/blimmer/pnpm-dependabot-workspace-repro/actions/workflows/dependabot/dependabot-updates).
 
 ## How to reproduce
 
@@ -52,12 +65,3 @@ line and elapsed time._
    is picked up automatically).
 3. Trigger a check manually from **Insights → Dependency graph → Dependabot**.
 4. Watch the job log for the npm update job on directory `/`.
-
-## Notes for maintainers
-
-- The large workspace is load-bearing for the reproduction; shrinking it to a
-  handful of packages makes the job succeed.
-- `@aws-sdk/client-ssm` and `drizzle-orm` are intentionally pinned to exact
-  versions in the catalog; that matches the source repo.
-- `packageManager` in the root `package.json` pins pnpm `11.22.0`, which is
-  the version the lockfile was generated with.
