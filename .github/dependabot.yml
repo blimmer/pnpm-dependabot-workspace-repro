@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 20
+    cooldown:
+      default-days: 7
+    groups:
+      dependency-group-001:
+        patterns:
+          - drizzle-orm
+          - drizzle-kit
+      dependency-group-002:
+        patterns:
+          - "*react-router*"
+          - remix-toast
+    ignore:
+      - dependency-name: "@types/node"

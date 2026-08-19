@@ -1,0 +1,25 @@
+{
+  "name": "@fixture/package-008",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@aws-sdk/client-ssm": "catalog:",
+    "@smithy/protocol-http": "^5.3.5",
+    "@smithy/signature-v4": "^5.6.2",
+    "neverthrow": "catalog:",
+    "p-retry": "^6.2.1",
+    "pino": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@types/node": "catalog:",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

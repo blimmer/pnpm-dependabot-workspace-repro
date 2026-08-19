@@ -1,0 +1,27 @@
+{
+  "name": "@fixture/package-006",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@clerk/backend": "catalog:",
+    "@fixture/package-008": "workspace:*",
+    "@fixture/package-009": "workspace:*",
+    "drizzle-orm": "catalog:",
+    "hono": "catalog:",
+    "neverthrow": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@types/aws-lambda": "catalog:",
+    "@types/node": "catalog:",
+    "eslint": "catalog:",
+    "fishery": "catalog:",
+    "prettier": "catalog:",
+    "svix": "^1.96.0",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@fixture/package-016",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "catalog:",
+    "@aws-sdk/client-ssm": "catalog:",
+    "@fixture/package-003": "workspace:*",
+    "@fixture/package-005": "workspace:*",
+    "@fixture/package-008": "workspace:*",
+    "@fixture/package-009": "workspace:*",
+    "@fixture/package-011": "workspace:*",
+    "@fixture/package-013": "workspace:*",
+    "@fixture/package-023": "workspace:*",
+    "hono": "catalog:",
+    "neverthrow": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@types/aws-lambda": "catalog:",
+    "@types/node": "catalog:",
+    "aws-sdk-client-mock": "catalog:",
+    "aws-sdk-client-mock-vitest": "catalog:",
+    "drizzle-orm": "catalog:",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

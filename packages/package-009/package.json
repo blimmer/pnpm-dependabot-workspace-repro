@@ -1,0 +1,28 @@
+{
+  "name": "@fixture/package-009",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.1069.0",
+    "@aws-sdk/rds-signer": "^3.1069.0",
+    "@fixture/package-008": "workspace:*",
+    "drizzle-orm": "catalog:",
+    "pg": "^8.21.0",
+    "pg-error-enum": "^2.0.1",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@types/node": "catalog:",
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "1.0.0-rc.4",
+    "eslint": "catalog:",
+    "eslint-plugin-drizzle": "catalog:",
+    "fishery": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

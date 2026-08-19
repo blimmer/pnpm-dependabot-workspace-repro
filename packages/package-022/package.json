@@ -1,0 +1,34 @@
+{
+  "name": "@fixture/package-022",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-lambda-microvms": "catalog:",
+    "@aws/durable-execution-sdk-js": "catalog:",
+    "@fixture/package-001": "workspace:*",
+    "@fixture/package-003": "workspace:*",
+    "@fixture/package-008": "workspace:*",
+    "@fixture/package-009": "workspace:*",
+    "@fixture/package-011": "workspace:*",
+    "@fixture/package-013": "workspace:*",
+    "@fixture/package-020": "workspace:*",
+    "@fixture/package-023": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "drizzle-orm": "catalog:",
+    "neverthrow": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@aws/durable-execution-sdk-js-testing": "catalog:",
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@types/aws-lambda": "catalog:",
+    "@types/node": "catalog:",
+    "eslint": "catalog:",
+    "fishery": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

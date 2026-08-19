@@ -1,0 +1,24 @@
+{
+  "name": "@fixture/package-007",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/credential-provider-node": "catalog:",
+    "@fixture/package-001": "workspace:*",
+    "@fixture/package-005": "workspace:*",
+    "@fixture/package-008": "workspace:*",
+    "commander": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@types/node": "catalog:",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@fixture/package-026",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@astrojs/react": "^5.0.5",
+    "@astrojs/sitemap": "^3.3.0",
+    "@fontsource-variable/geist": "catalog:",
+    "@fontsource-variable/geist-mono": "catalog:",
+    "@fontsource/atkinson-hyperlegible-next": "^5.2.5",
+    "astro": "^7.1.1",
+    "astro-og-canvas": "^0.11.1",
+    "canvaskit-wasm": "^0.41.1",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "sharp": "^0.35.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@fixture/package-012": "workspace:*",
+    "@tailwindcss/vite": "^4.2.4",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-astro": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.0",
+    "vite": "^7.0.0"
+  }
+}

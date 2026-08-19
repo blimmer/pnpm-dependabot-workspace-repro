@@ -1,0 +1,39 @@
+{
+  "name": "@fixture/package-015",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "catalog:",
+    "@aws-sdk/s3-request-presigner": "^3.1000.0",
+    "@blimmer/cdk-github-oidc": "^1.1.0",
+    "@fixture/package-005": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@js-temporal/polyfill": "^0.5.1",
+    "@sentry/aws-serverless": "^10.70.0",
+    "aws-cdk-lib": "^2.258.0",
+    "constructs": "^10.6.0",
+    "neverthrow": "catalog:",
+    "pino": "^10.3.1",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fixture/package-008": "workspace:*",
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-013": "workspace:*",
+    "@fixture/package-016": "workspace:*",
+    "@fixture/package-021": "workspace:*",
+    "@fixture/package-026": "workspace:*",
+    "@fixture/package-027": "workspace:*",
+    "@types/aws-lambda": "catalog:",
+    "@types/node": "catalog:",
+    "aws-cdk": "^2.1128.1",
+    "esbuild": "catalog:",
+    "eslint": "catalog:",
+    "fishery": "catalog:",
+    "prettier": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

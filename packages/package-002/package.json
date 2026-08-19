@@ -1,0 +1,29 @@
+{
+  "name": "@fixture/package-002",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aether-agent/evals": "^0.3.1",
+    "@aws-sdk/client-s3": "catalog:",
+    "@fixture/package-001": "workspace:*",
+    "@fixture/package-003": "workspace:*",
+    "@fixture/package-008": "workspace:*",
+    "@fixture/package-013": "workspace:*",
+    "commander": "catalog:",
+    "neverthrow": "catalog:",
+    "shell-quote": "^1.10.0",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@types/node": "catalog:",
+    "eslint": "catalog:",
+    "fishery": "catalog:",
+    "prettier": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

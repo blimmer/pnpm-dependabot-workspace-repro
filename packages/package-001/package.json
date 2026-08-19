@@ -1,0 +1,43 @@
+{
+  "name": "@fixture/package-001",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aether-agent/cli": "^0.7.35",
+    "@aether-agent/sdk": "^0.4.1",
+    "@aws-sdk/client-lambda-microvms": "catalog:",
+    "@aws-sdk/client-s3": "catalog:",
+    "@aws-sdk/client-ssm": "catalog:",
+    "@aws-sdk/credential-provider-node": "catalog:",
+    "@fixture/package-003": "workspace:*",
+    "@fixture/package-005": "workspace:*",
+    "@fixture/package-008": "workspace:*",
+    "@fixture/package-013": "workspace:*",
+    "@fixture/package-020": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@octokit/core": "catalog:",
+    "@sentry/aws-serverless": "catalog:",
+    "esbuild": "catalog:",
+    "lodash-es": "catalog:",
+    "mustache": "^4.2.0",
+    "neverthrow": "catalog:",
+    "p-map": "catalog:",
+    "semver": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@fixture/package-012": "workspace:*",
+    "@fixture/package-025": "workspace:*",
+    "@types/lodash-es": "catalog:",
+    "@types/mustache": "^4.2.6",
+    "@types/node": "catalog:",
+    "@types/semver": "catalog:",
+    "eslint": "catalog:",
+    "fishery": "catalog:",
+    "prettier": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}
