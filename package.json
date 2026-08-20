@@ -11,7 +11,7 @@
     "esbuild": "catalog:",
     "eslint": "catalog:",
     "prettier": "catalog:",
-    "rulesync": "^9.3.0",
+    "rulesync": "^16.9.1",
     "turbo": "^2.9.16",
     "typescript-language-server": "^5.3.0"
   }
