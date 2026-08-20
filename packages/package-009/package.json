@@ -17,7 +17,7 @@
     "@fixture/package-025": "workspace:*",
     "@types/node": "catalog:",
     "@types/pg": "^8.20.0",
-    "drizzle-kit": "1.0.0-rc.4",
+    "drizzle-kit": "1.0.0-rc.5-ab785fc",
     "eslint": "catalog:",
     "eslint-plugin-drizzle": "catalog:",
     "fishery": "catalog:",
