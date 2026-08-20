@@ -20,7 +20,7 @@
     "eslint": "catalog:",
     "fishery": "catalog:",
     "prettier": "catalog:",
-    "svix": "^1.96.0",
+    "svix": "^1.99.1",
     "typescript": "catalog:",
     "vitest": "catalog:"
   }
