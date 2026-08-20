@@ -7,7 +7,7 @@
     "@aws-crypto/sha256-js": "^5.2.0",
     "@aws-sdk/client-ssm": "catalog:",
     "@smithy/protocol-http": "^5.3.5",
-    "@smithy/signature-v4": "^5.6.2",
+    "@smithy/signature-v4": "^5.7.0",
     "neverthrow": "catalog:",
     "p-retry": "^6.2.1",
     "pino": "catalog:",
