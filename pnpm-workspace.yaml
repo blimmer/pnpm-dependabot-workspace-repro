@@ -14,7 +14,7 @@ catalog:
   "@octokit/core": ^7.0.6
   "@okee-tech/eslint-plugin-neverthrow": ^1.0.14
   "@sentry/aws-serverless": ^10.70.0
-  "@sentry/react-router": ^10.70.0
+  "@sentry/react-router": ^10.72.0
   "@tailwindcss/vite": ^4.2.4
   "@types/aws-lambda": ^8.10.160
   "@types/lodash-es": ^4.17.12
