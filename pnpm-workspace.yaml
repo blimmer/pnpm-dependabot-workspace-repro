@@ -26,7 +26,7 @@ catalog:
   aws-sdk-client-mock-vitest: ^7.1.0
   commander: ^15.0.0
   drizzle-orm: 1.0.0-rc.4
-  esbuild: ^0.28.1
+  esbuild: ^0.28.2
   eslint: ^10.4.1
   eslint-plugin-drizzle: ^0.2.3
   fishery: ^2.4.0
