@@ -42,7 +42,7 @@ catalog:
   tailwindcss: ^4.2.4
   tsx: ^4.21.0
   typescript: ^6.0.2
-  vitest: ^4.1.8
+  vitest: ^5.0.2
   zod: ^4.3.6
 overrides:
   "@smithy/types": 4.16.1
