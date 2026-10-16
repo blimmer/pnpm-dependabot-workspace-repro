@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@astrojs/react": "^5.0.5",
+    "@astrojs/react": "^6.0.2",
     "@astrojs/sitemap": "^3.3.0",
     "@fontsource-variable/geist": "catalog:",
     "@fontsource-variable/geist-mono": "catalog:",
