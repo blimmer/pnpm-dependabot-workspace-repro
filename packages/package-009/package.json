@@ -5,7 +5,7 @@
   "type": "module",
   "dependencies": {
     "@aws-sdk/client-secrets-manager": "^3.1069.0",
-    "@aws-sdk/rds-signer": "^3.1069.0",
+    "@aws-sdk/rds-signer": "^3.1109.0",
     "@fixture/package-008": "workspace:*",
     "drizzle-orm": "catalog:",
     "pg": "^8.21.0",
