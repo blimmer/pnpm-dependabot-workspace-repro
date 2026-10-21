@@ -30,7 +30,7 @@ catalog:
   eslint: ^10.4.1
   eslint-plugin-drizzle: ^0.2.3
   fishery: ^2.4.0
-  hono: ^4.12.34
+  hono: ^4.13.11
   lodash-es: ^4.17.21
   neverthrow: ^8.2.0
   p-map: ^7.0.4
