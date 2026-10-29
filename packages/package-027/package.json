@@ -63,7 +63,7 @@
     "fishery": "catalog:",
     "jsdom": "^29.1.1",
     "prettier": "catalog:",
-    "storybook": "^10.4.6",
+    "storybook": "^10.6.2",
     "storybook-addon-remix-react-router": "^7.0.0",
     "tailwindcss": "catalog:",
     "tsx": "catalog:",
